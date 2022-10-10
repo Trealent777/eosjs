@@ -33,7 +33,7 @@ jobs:
     needs: check-tokens
     steps:
       - name: Checkout
-        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Setup Node.js v16.x.x
         uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c
         with:
@@ -86,7 +86,7 @@ jobs:
     needs: check-tokens
     steps:
       - name: Checkout
-        uses: actions/checkout@ec3a7ce113134d7a93b817d10a8272cb61118579
+        uses: actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8
       - name: Setup Node.js v16.x.x
         uses: actions/setup-node@270253e841af726300e85d718a5f606959b2903c
         with:
