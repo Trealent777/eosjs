@@ -58,7 +58,7 @@ jobs:
         run: |
           yarn build-web
       - name: Test Web
-        uses: cypress-io/github-action@2113e5bc19c45979ba123df6e07256d2aaba9a33
+        uses: cypress-io/github-action@327178c8042fbb3be13870105eece3c8abf348c9
         with:
           spec: cypress/integration/index.spec.js
       - name: Publish Release
@@ -111,7 +111,7 @@ jobs:
         run: |
           yarn build-web
       - name: Test Web
-        uses: cypress-io/github-action@2113e5bc19c45979ba123df6e07256d2aaba9a33
+        uses: cypress-io/github-action@327178c8042fbb3be13870105eece3c8abf348c9
         with:
           spec: cypress/integration/index.spec.js
       - name: Publish RC
